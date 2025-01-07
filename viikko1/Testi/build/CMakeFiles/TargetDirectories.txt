@@ -1,7 +1,0 @@
-C:/Users/eeroo/Documents/GitHub/OlioOhjelmointiTehtavat_EeroOja/viikko1/Testi/build/CMakeFiles/Testi.dir
-C:/Users/eeroo/Documents/GitHub/OlioOhjelmointiTehtavat_EeroOja/viikko1/Testi/build/CMakeFiles/edit_cache.dir
-C:/Users/eeroo/Documents/GitHub/OlioOhjelmointiTehtavat_EeroOja/viikko1/Testi/build/CMakeFiles/rebuild_cache.dir
-C:/Users/eeroo/Documents/GitHub/OlioOhjelmointiTehtavat_EeroOja/viikko1/Testi/build/CMakeFiles/list_install_components.dir
-C:/Users/eeroo/Documents/GitHub/OlioOhjelmointiTehtavat_EeroOja/viikko1/Testi/build/CMakeFiles/install.dir
-C:/Users/eeroo/Documents/GitHub/OlioOhjelmointiTehtavat_EeroOja/viikko1/Testi/build/CMakeFiles/install/local.dir
-C:/Users/eeroo/Documents/GitHub/OlioOhjelmointiTehtavat_EeroOja/viikko1/Testi/build/CMakeFiles/install/strip.dir
