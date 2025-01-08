@@ -9,7 +9,7 @@ int vastaus = -1;
     int arvaukset = 0;
 srand(time(NULL));
 int rndnumber = rand() % maxnum;
-//cout << rndnumber << endl;
+cout <<"Luku on 1-"<< maxnum << " valilta" << endl;
 while (vastaus != rndnumber) {
     cin >> vastaus;
     if(vastaus < rndnumber){
@@ -28,5 +28,5 @@ return 0;
 
 int main()
 {
-    game(10);
+ game(40);
 }
