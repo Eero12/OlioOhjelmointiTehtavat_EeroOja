@@ -16,7 +16,7 @@ int main()
         cout << "Numero on suurempi " << endl;
         }
         else if(vastaus > rndnumber){
-            cout << "Numero on pienempi " << endl;
+            cout << "Numero on pienempi xdd " << endl;
         }
     }
     cout << "OIKEIN!" << endl;
