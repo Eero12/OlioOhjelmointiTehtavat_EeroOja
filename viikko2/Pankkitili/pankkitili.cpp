@@ -2,8 +2,15 @@
 
 Pankkitili::Pankkitili() {
     saldo = 0;
-    salasana = "oskarionkakka9";
+    salasana = "oskari";
     tilinumero = "FI34 27498 2374 2987";
+}
+
+Pankkitili::Pankkitili(string salasana)
+{
+    tilinumero = "FI34 27498 2374 2987";
+    saldo = 0;
+    this->salasana = salasana;
 }
 
 int Pankkitili::getSaldo() const

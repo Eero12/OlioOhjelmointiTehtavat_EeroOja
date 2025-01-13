@@ -11,17 +11,20 @@ class Pankkitili
 {
 public:
     Pankkitili();
+    Pankkitili(string salasana);
 
 
     int getSaldo() const;
     void setSaldo(int newSaldo);
-    string salasana;
 
+
+    string getSalasana() const;
+    void setSalasana(const string &newSalasana);
+    string salasana;
 
 private:
     int saldo;
     string tilinumero;
-    //string salasana;
 
 };
 

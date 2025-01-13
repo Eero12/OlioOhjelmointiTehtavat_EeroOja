@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-    Pankkitili munTili;
+    Pankkitili munTili("123");
     int luku;
     string salasana;
        while(salasana != munTili.salasana){
