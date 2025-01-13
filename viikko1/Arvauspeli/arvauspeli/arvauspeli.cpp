@@ -21,11 +21,9 @@ while (vastaus != rndnumber) {
         arvaukset++;
     }
 }
-
 cout << "OIKEIN!" <<" Arvausten maara: " << arvaukset << endl;
 return 0;
 }
-
 int main()
 {
  game(40);
