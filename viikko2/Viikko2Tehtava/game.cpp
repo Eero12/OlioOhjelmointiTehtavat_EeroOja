@@ -18,24 +18,19 @@ void Game::play()
 {
     cout << "game play" << endl;
         srand(time(NULL));
-        int rndnumber = rand() % maxNumber;
+        randomNumber= rand() % maxNumber;
         cout <<"Number is between 1-"<< maxNumber << endl;
-        while (playerGuess != rndnumber) {
+        while (playerGuess != randomNumber) {
             cin >> playerGuess;
-            if(playerGuess < rndnumber){
+            if(playerGuess < randomNumber){
                 numOfGuesses++;
                 cout << "Number is bigger " << endl;
             }
-            else if(playerGuess > rndnumber){
+            else if(playerGuess > randomNumber){
                 cout << "Number is smaller" << endl;
                 numOfGuesses++;
             }
         }
-        system("cls");
-        cout << "printing game result...... " << endl;
-        this_thread::sleep_for(chrono::seconds(2));
-        cout << " " << endl;
-        cout << "Correct number was: " << rndnumber<< endl;
         printGameResult();
 }
 
@@ -43,6 +38,11 @@ void Game::play()
 
 void Game::printGameResult()
 {
+    system("cls");
+    cout << "printing game result...... " << endl;
+    this_thread::sleep_for(chrono::seconds(2));
+    cout << " " << endl;
+    cout << "Correct number was: " << randomNumber<< endl;
     cout <<"Number of guesses: " <<numOfGuesses << endl;
     cout << " " << endl;
 }
