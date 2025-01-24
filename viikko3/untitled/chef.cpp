@@ -2,33 +2,31 @@
 
 Chef::Chef() {
 
-    cout <<"Constructori" << endl;
+    cout <<"BASIC Constructori" << endl << endl;
 
 }
 Chef::~Chef() {
-    cout << "Destruction" << endl;
+    cout << "BASIC Destruction" << endl << endl;;
 
 
 }
 Chef::Chef(string name) {
-
+    cout << "Cocks name: " << name << endl;
 
 }
 int Chef::makeSalad(int aines)
 {
     int annokset;
-    cout << "Ainesten maara: " << aines << endl;
+    cout << "Ingredient amount: " << aines << endl;
     annokset = aines / 5;
-    cout << "Annoksia tulee: " << endl;
     return annokset;
 
 }
 int Chef::makeSoup(int aines)
 {
     int annokset;
-    cout << "Ainesten maara: " << aines << endl;
+    cout << "Ingredient amount: " << aines << endl;
     annokset = aines / 3;
-    cout << "Annoksia tulee: " << endl;
     return annokset;
 }
 

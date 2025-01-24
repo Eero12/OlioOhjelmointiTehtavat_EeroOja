@@ -18,7 +18,7 @@ public:
     int makeSoup(int aines);
 
     int getMakeSalad() const;
-    void setMakeSalad(int newMakeSalad);
+    void setMakeSalad();
 
 protected:
     string chefName;
