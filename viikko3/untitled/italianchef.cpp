@@ -32,7 +32,7 @@ bool ItalianChef::askSecret(string salasana, int w, int f){
 
 int ItalianChef::makepizza()
 {
-    int annostenmaara=10;
+    int annostenmaara=0;
     cout << "Water amount: " << water << " Flour amount: " << flour << endl;
     while (water > 4 && flour > 4) {
         annostenmaara++;

@@ -6,7 +6,7 @@ Chef::Chef() {
 
 }
 Chef::~Chef() {
-    cout << "BASIC Destruction" << endl << endl;;
+    cout << "BASIC Destruction" << endl << endl;
 
 
 }
