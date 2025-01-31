@@ -1,3 +1,4 @@
+#include <iostream>
 #ifndef PANKKITILI_H
 #define PANKKITILI_H
 
@@ -8,6 +9,11 @@ class Pankkitili
 {
 public:
     Pankkitili();
+    Pankkitili(string);
+    virtual ~Pankkitili();
+    double getBalance();
+    virtual bool deposit(double depositAmount);
+    virtual bool withdraw(double withdrawAmount);
 
 
 
@@ -16,8 +22,9 @@ private:
 
 
 protected:
-    string omistaja;
 
+    string owner;
+    double balance = 0;
 
 
 };
