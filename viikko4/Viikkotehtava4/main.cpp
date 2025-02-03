@@ -12,6 +12,7 @@ int main()
 
     asiakas.Creditdeposit(500);
     asiakas.showBalance();
+    cout << "Asiakas: " << asiakas.getName() << endl;
 
     return 0;
 }

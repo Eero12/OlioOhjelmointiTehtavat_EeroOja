@@ -3,7 +3,7 @@
 Asiakas::Asiakas(string name, double cl)
     :mainBank(name), creditBank(name, cl)
 {
-
+    customerName =  name;
 }
 
 bool Asiakas::deposit(double depositamount)
@@ -28,7 +28,7 @@ bool Asiakas::Creditwithdraw(double CreditwithdrawAmount)
 
 string Asiakas::getName()
 {
-    ;
+    return customerName;
 }
 
 void Asiakas::showBalance()

@@ -20,6 +20,7 @@ public:
 private:
     Pankkitili(mainBank);
     Luottotili(creditBank);
+    string customerName;
 
 protected:
 };
