@@ -122,7 +122,8 @@ debug/luottotili.o: ../luottotili.cpp ../luottotili.h \
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\luottotili.o ..\luottotili.cpp
 
 debug/main.o: ../main.cpp ../pankkitili.h \
-		../luottotili.h
+		../luottotili.h \
+		../asiakas.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\main.o ..\main.cpp
 
 debug/pankkitili.o: ../pankkitili.cpp ../pankkitili.h

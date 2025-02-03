@@ -35,3 +35,30 @@ void Asiakas::showBalance()
 {
     cout << mainBank.getBalance() << endl;
 }
+
+bool Asiakas::moneyTransfer(double moneyAmount, Asiakas &customer)
+{
+    double accountBalance;
+    accountBalance = mainBank.getBalance();
+    if(moneyAmount <= accountBalance){
+
+        cout <<"Money you wanted to transfer: " <<moneyAmount  << " Money on the account " << mainBank.getBalance()
+             << endl;
+        cout << "User you wanted to transfer to: " << customer.getName() << endl;
+    mainBank.withdraw(moneyAmount);
+        cout << endl;
+    customer.deposit(moneyAmount);
+
+
+    return true;
+    }
+    if(moneyAmount > mainBank.getBalance()){
+        cout << "You cant transfer money that you dont have!" << endl;
+        return false;
+
+    }
+
+
+
+    return false;
+}

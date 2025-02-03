@@ -10,6 +10,7 @@ Pankkitili::Pankkitili(string user)
 
 Pankkitili::~Pankkitili()
 {
+    cout << endl;
     cout << "Destructor" << endl;
 }
 

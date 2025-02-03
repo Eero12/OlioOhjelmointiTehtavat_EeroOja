@@ -13,6 +13,7 @@ Luottotili::Luottotili(string wnr, double cdtlmt)
 
 Luottotili::~Luottotili()
 {
+    cout << endl;
     cout << "Luottotili destructor" << endl;
 }
 

@@ -16,6 +16,7 @@ public:
     bool Creditwithdraw(double CreditwithdrawAmount);
     string getName();
     void showBalance();
+    bool moneyTransfer(double, Asiakas &customer);
 
 private:
     Pankkitili(mainBank);
