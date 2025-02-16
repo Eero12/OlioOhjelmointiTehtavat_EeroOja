@@ -18,7 +18,7 @@ int main ()
     {
         cout<<endl;
         cout<<"Select"<<endl;
-        cout<<"Add students = 0"<<endl;
+        //cout<<"Add students = 0"<<endl;
         cout<<"Print all students = 1"<<endl;
         cout<<"Sort and print students according to Name = 2"<<endl;
         cout<<"Sort and print students according to Age = 3"<<endl;
