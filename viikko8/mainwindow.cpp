@@ -59,7 +59,7 @@ void MainWindow::on_sec_120_clicked()
 {
     if(!game){
     gameSelected = true;
-    gameTime = 10;
+    gameTime = 120;
     player1Time = gameTime;
     player2Time = gameTime;
     ui->progressBar->setRange(0, gameTime);
