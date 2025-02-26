@@ -88,12 +88,12 @@ void MainWindow::updateProgressBar()
     if(player1 && !player2){
     player1Time = player1Time-1;
     ui->progressBar->setValue(player1Time);
-    if(ui->progressBar->value() == 0){ui->label->setText("Player 1 lost by time!!"); game = false;}
+    if(ui->progressBar->value() == 0){ui->label->setText("Player 1 lost by time!! Press stop to restart game");}
     }
     if(player2 && !player1){
         player2Time = player2Time-1;
         ui->progressBar_2->setValue(player2Time);
-    if(ui->progressBar_2->value() == 0){ui->label->setText("Player 2 lost by time!!"); game = false;}
+        if(ui->progressBar_2->value() == 0){ui->label->setText("Player 2 lost by time!! Press stop to restart game");}
     }
     if(!player1 && !player2){
         ui->label->setText("Starting player not selected");

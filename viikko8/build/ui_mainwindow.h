@@ -68,7 +68,7 @@ public:
         progressBar_2->setValue(0);
         label = new QLabel(centralwidget);
         label->setObjectName("label");
-        label->setGeometry(QRect(200, 30, 161, 31));
+        label->setGeometry(QRect(180, 10, 301, 21));
         label->setWordWrap(false);
         Start = new QPushButton(centralwidget);
         Start->setObjectName("Start");
